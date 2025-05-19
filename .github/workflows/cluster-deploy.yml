@@ -63,8 +63,6 @@ jobs:
 
     needs:
       buildImage-and-Push-to-ECR
-      
-#--------------->
 
   deployToCluster:
     runs-on: ubuntu-latest
